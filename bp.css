@@ -1,19 +1,24 @@
-  .background {
+body, html {
+    height: 100%;
+  }
+  
+div.background {
     background-image: url("Singapore-map.jpg");
     background-repeat: no-repeat;
     border:  4px solid black;
-    opacity: 0.4;
-  }
+    opacity: 0.3;
+}
   
-  .transbox {
-    margin: 5%;
+div.transbox {
+    margin: 10%;
     background-color: #fde3fa;
-    border: 1px solid black;
+    border: 5px solid rgb(68, 83, 1);
     opacity: 0.7;
-  }
+}
   
-  .transbox p {
+div.transbox p {
     margin: 15%;
     font-weight: bold;
     color: #0a0a0a;
-  }
+    opacity: 100%;
+}
