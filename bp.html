@@ -13,31 +13,42 @@
   </head>
   <body>
     <div class="background">
-        <div class="transbox">
-            <h1>Singapore!</h1>
+        <div class="transbox" id="backgroundImg">
+            <h1><span style='font-size:50px;'>&#9827;</span>Singapore<span style='font-size:50px;'>&#9827;</span></h1>
             <p>Officially the Republic of Singapore.  Singapore—known variously as the “Lion City” or “Garden City,” the latter for its many parks and tree-lined streets—has also been called “instant Asia” because it offers the tourist an expeditious glimpse into the cultures brought to it by immigrants from all parts of Asia. While predominantly Chinese, it has substantial minorities of Malays and Indians.</p>
         </br>
-            <div id="demo" class="carousel slide" data-ride="carousel">
+            <div class="d-flex justify-content-center">
+                <button type="button" id="btnName" class="btn btn-default btn-success active">Click to change Background</button>
+            </div>
+        </br>
+            <div id="demo" class="carousel-slide" data-ride="carousel">
                 <ul class="carousel-indicators">
                   <li data-target="#demo" data-slide-to="0" class="active"></li>
                   <li data-target="#demo" data-slide-to="1"></li>
                   <li data-target="#demo" data-slide-to="2"></li>
+                  <li data-target="#demo" data-slide-to="3"></li>
                 </ul>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img src="singapore1.jpg" alt="" width="300" height="80">
+                    <img src="singapore5.jpg" alt="" width="300" height="80">
                     <div class="carousel-caption">
                       <h3>Singapore</h3>
                       <p>Such a great place not to be miss!</p>
                     </div>   
                   </div>
                   <div class="carousel-item">
-                    <img src="singapore5.jpg" alt="" width="300" height="80">
+                    <img src="singapore3.jpg" alt="" width="300" height="80">
                      
                   </div>
                   <div class="carousel-item">
-                    <img src="singapore3.jpg" alt="" width="300" height="80">  
+                    <img src="singapore2.jpg" alt="" width="300" height="80">  
                   </div>
+                </div>
+
+                </div>
+                    <div class="carousel-item">
+                    <img src="singapore1.jpg" alt="" width="300" height="80">  
+                    </div>
                 </div>
 
                 <a class="carousel-control-prev" href="#demo" data-slide="prev">
