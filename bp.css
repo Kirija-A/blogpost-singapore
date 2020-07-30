@@ -3,22 +3,35 @@ body, html {
   }
   
 div.background {
-    background-image: url("Singapore-map.jpg");
+    background-image: url("Singapore-bg.jpg");
     background-repeat: no-repeat;
     border:  4px solid black;
-    opacity: 0.3;
+    opacity: 0.4;
 }
   
 div.transbox {
     margin: 10%;
     background-color: #fde3fa;
-    border: 5px solid rgb(68, 83, 1);
+    border: 5px solid rgb(5, 109, 69);
     opacity: 0.7;
 }
-  
+
+div.transbox h1 {
+    margin: 15%;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #050505;
+    text-align: center;
+}
+
 div.transbox p {
     margin: 15%;
     font-weight: bold;
-    color: #0a0a0a;
-    opacity: 100%;
+    color: #050505;
+    text-align: center;
 }
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
